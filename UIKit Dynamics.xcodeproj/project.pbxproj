@@ -264,7 +264,6 @@
 				TargetAttributes = {
 					AFA2EBA51BB2964100450835 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = VS86A5N9W7;
 					};
 					AFA2EBBE1BB2964100450835 = {
 						CreatedOnToolsVersion = 7.0;
