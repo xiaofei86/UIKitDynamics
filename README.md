@@ -1,8 +1,8 @@
 # UIKit-Dynamics
 
-自己在学习UIKit Dynamics时候做的一个Demo，把UIKit Dynamics的所有Behavior都实践了一下，还有三个实际场景的应用。可以拿去学习。效果如下。（部分图片由于GIF帧数过低，动效没有显示）
+自己在学习UIKit Dynamics时候做的一个Demo，把UIKit Dynamics的所有Behavior都实践了一下，还有三个实际场景的应用。效果如下。（部分图片由于GIF帧数过低，动效没有显示）
 
-注：如果图片不能显示请尝试将VPN设为全局模式，也可以通过备用链接查看
+注：如果图片不能显示请尝试将VPN设为全局模式，也可以关闭VPN通过备用链接查看
 
 #重力行为（UIGravityBehavior）
 [备用链接](http://g.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=9090b90bc81b9d168ec79969c3e5c5b2/a8773912b31bb0511e4f98fc307adab44bede0ff.jpg)
