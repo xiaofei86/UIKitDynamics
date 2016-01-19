@@ -1,9 +1,9 @@
-# UIKitDynamics
+#UIKitDynamics
 
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/xiaofei86/UIKitDynamics/master/LICENSE)&nbsp;
-[![CocoaPods](http://img.shields.io/cocoapods/p/YYKit.svg?style=flat)](http://www.apple.com/ios/)&nbsp;
-[![Support](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat)](https://en.wikipedia.org/wiki/IOS_7)&nbsp;
-[![Support](https://img.shields.io/badge/blog-xuyafei.cn-orange.svg)](http://www.xuyafei.cn)&nbsp;
+[![LICENSE](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/xiaofei86/UIKitDynamics/master/LICENSE)&nbsp;
+[![PLATFORM](https://img.shields.io/cocoapods/p/LPNetworking.svg?style=flat)](https://developer.apple.com/library/ios/navigation/)&nbsp;
+[![SUPPORT](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat)](https://en.wikipedia.org/wiki/IOS_7)&nbsp;
+[![BLOG](https://img.shields.io/badge/blog-xuyafei.cn-orange.svg?style=flat)](http://xuyafei.cn)&nbsp;
 
 学习UIKitDynamics时做的Demo，把UIKitDynamics的所有Behavior都实践了下，还有三个实际场景的应用。（部分图片由于GIF帧数过低，动效没有显示）
 
