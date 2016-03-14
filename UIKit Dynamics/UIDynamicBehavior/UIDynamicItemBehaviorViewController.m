@@ -13,6 +13,7 @@
     UISlider *_slider;
     UISlider *_slider2;
     UISlider *_slider3;
+    UILabel *_label;
     UIDynamicAnimator *_animator;
     UIDynamicItemBehavior *_dynamicItemBehavior;
     UIPushBehavior *_pushBehavior;
@@ -30,7 +31,7 @@
     _imageView.backgroundColor = [UIColor grayColor];
     [self.view addSubview:_imageView];
     
-    _slider = [[UISlider alloc] initWithFrame:CGRectMake(40, 100, self.view.frame.size.width-80, 44)];//弹性
+    _slider = [[UISlider alloc] initWithFrame:CGRectMake(130, 108, self.view.frame.size.width-160, 40)];//弹性
     [_slider addTarget:self action:@selector(sliderChanged:) forControlEvents:UIControlEventValueChanged];
     _slider.minimumValue = 0.0;
     _slider.maximumValue = 1.0;
@@ -38,7 +39,7 @@
     _slider.value = _slider.maximumValue;
     [self.view addSubview:_slider];
     
-    _slider2 = [[UISlider alloc] initWithFrame:CGRectMake(40, 144, self.view.frame.size.width-80, 44)];//阻力//角阻力
+    _slider2 = [[UISlider alloc] initWithFrame:CGRectMake(130, 148, self.view.frame.size.width-160, 40)];//阻力//角阻力
     [_slider2 addTarget:self action:@selector(sliderChanged2:) forControlEvents:UIControlEventValueChanged];
     _slider2.minimumValue = 0.0;
     _slider2.maximumValue = 100.0;
@@ -46,13 +47,19 @@
     _slider2.value = _slider2.maximumValue;
     [self.view addSubview:_slider2];
     
-    _slider3 = [[UISlider alloc] initWithFrame:CGRectMake(40, 188, self.view.frame.size.width-80, 44)];//摩擦力//密度
+    _slider3 = [[UISlider alloc] initWithFrame:CGRectMake(130, 188, self.view.frame.size.width-160, 40)];//摩擦力//密度
     [_slider3 addTarget:self action:@selector(sliderChanged3:) forControlEvents:UIControlEventValueChanged];
     _slider3.minimumValue = 1.0;
     _slider3.maximumValue = 6.0;
     _slider3.continuous = NO;
     _slider3.value = _slider3.maximumValue;
     [self.view addSubview:_slider3];
+    
+    _label = [[UILabel alloc] initWithFrame:CGRectMake(10, 100, 100, 132)];
+    _label.numberOfLines = 0;
+    _label.textAlignment = NSTextAlignmentRight;
+    _label.text = @"弹性:\n\n阻力/角阻力:\n\n摩擦力/密度:";
+    [self.view addSubview:_label];
     
     _animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
     
@@ -74,42 +81,17 @@
 }
 
 - (void)sliderChanged:(UISlider*)sender {
-    UIDynamicItemBehavior *dynamicItemBehavior = [[UIDynamicItemBehavior alloc] initWithItems:@[_imageView]];
-    dynamicItemBehavior.allowsRotation = _dynamicItemBehavior.allowsRotation;
-    dynamicItemBehavior.elasticity = sender.value;//弹性
-    dynamicItemBehavior.resistance = _dynamicItemBehavior.resistance;
-    dynamicItemBehavior.angularResistance = _dynamicItemBehavior.angularResistance;
-    dynamicItemBehavior.friction = _dynamicItemBehavior.friction;
-    dynamicItemBehavior.density = _dynamicItemBehavior.density;
-    [_animator removeBehavior:_dynamicItemBehavior];
-    _dynamicItemBehavior = dynamicItemBehavior;
-    [_animator addBehavior:_dynamicItemBehavior];
+    _dynamicItemBehavior.elasticity = sender.value;//弹性
 }
 
 - (void)sliderChanged2:(UISlider*)sender {
-    UIDynamicItemBehavior *dynamicItemBehavior = [[UIDynamicItemBehavior alloc] initWithItems:@[_imageView]];
-    dynamicItemBehavior.allowsRotation = _dynamicItemBehavior.allowsRotation;
-    dynamicItemBehavior.elasticity = _dynamicItemBehavior.elasticity;
-    dynamicItemBehavior.resistance = sender.value;//阻力
-    dynamicItemBehavior.angularResistance = sender.value;//角阻力
-    dynamicItemBehavior.friction = _dynamicItemBehavior.friction;
-    dynamicItemBehavior.density = _dynamicItemBehavior.density;
-    [_animator removeBehavior:_dynamicItemBehavior];
-    _dynamicItemBehavior = dynamicItemBehavior;
-    [_animator addBehavior:_dynamicItemBehavior];
+    _dynamicItemBehavior.resistance = sender.value;//阻力
+    _dynamicItemBehavior.angularResistance = sender.value;//角阻力
 }
 
 - (void)sliderChanged3:(UISlider*)sender {
-    UIDynamicItemBehavior *dynamicItemBehavior = [[UIDynamicItemBehavior alloc] initWithItems:@[_imageView]];
-    dynamicItemBehavior.allowsRotation = _dynamicItemBehavior.allowsRotation;
-    dynamicItemBehavior.elasticity = _dynamicItemBehavior.elasticity;
-    dynamicItemBehavior.resistance = _dynamicItemBehavior.resistance;
-    dynamicItemBehavior.angularResistance = _dynamicItemBehavior.angularResistance;
-    dynamicItemBehavior.friction = sender.value;//摩擦力
-    dynamicItemBehavior.density = sender.value;//密度
-    [_animator removeBehavior:_dynamicItemBehavior];
-    _dynamicItemBehavior = dynamicItemBehavior;
-    [_animator addBehavior:_dynamicItemBehavior];
+    _dynamicItemBehavior.friction = sender.value;//摩擦力
+    _dynamicItemBehavior.density = sender.value;//密度
 }
 
 - (void)push {

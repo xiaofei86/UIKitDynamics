@@ -30,10 +30,10 @@
     
     _animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
     
-    UIGravityBehavior* gravityBeahvior = [[UIGravityBehavior alloc] initWithItems:@[_imageView]];
+    UIGravityBehavior *gravityBeahvior = [[UIGravityBehavior alloc] initWithItems:@[_imageView]];
     [_animator addBehavior:gravityBeahvior];
     
-    UICollisionBehavior* collisionBehavior = [[UICollisionBehavior alloc] initWithItems:@[_imageView]];
+    UICollisionBehavior *collisionBehavior = [[UICollisionBehavior alloc] initWithItems:@[_imageView]];
     collisionBehavior.translatesReferenceBoundsIntoBoundary = YES;
     collisionBehavior.collisionDelegate = self;
     [_animator addBehavior:collisionBehavior];

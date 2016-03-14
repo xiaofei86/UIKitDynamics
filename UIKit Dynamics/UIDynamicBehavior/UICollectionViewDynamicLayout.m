@@ -49,15 +49,15 @@ static const NSInteger _interval = 10;
     }
 }
 
--(NSArray *)layoutAttributesForElementsInRect:(CGRect)rect {
+- (NSArray *)layoutAttributesForElementsInRect:(CGRect)rect {
     return [self.dynamicAnimator itemsInRect:rect];
 }
 
--(UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath {
+- (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath {
     return [self.dynamicAnimator layoutAttributesForCellAtIndexPath:indexPath];
 }
 
--(BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds {
+- (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds {
     UIScrollView *scrollView = self.collectionView;
     CGFloat delta = newBounds.origin.y - scrollView.bounds.origin.y;
     

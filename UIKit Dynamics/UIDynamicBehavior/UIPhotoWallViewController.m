@@ -35,7 +35,7 @@
 
 #pragma mark - UICollectionViewDataSource
 
--(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return 80;
 }
 
