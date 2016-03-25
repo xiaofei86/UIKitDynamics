@@ -7,6 +7,8 @@
 
 学习UIKitDynamics时做的Demo，把UIKitDynamics的所有Behavior都进行了实践，还有三个实际场景的应用和一个独立项目。UIKitDynamics是iOS7新加入UIKIt家族的动画，使用场景比较少。由于是基于UIView的动画，效率肯定不会有CoreAnimation高。但是借此可以做出来复杂的仿真动画效果，甚至可以算是简单的2D物理引擎了。
 
+* 由于GIF图片较多，首次加载的时候播放很卡，可以等所有图片加载完再看。
+
 #独立项目（LPSolarSystem）
 
 独立项目使用UIKitDynamics模拟太阳系制作随机数生成器。图片由于GIF帧数过低，效果很差，可以在[这里](https://github.com/xiaofei86/UIKit-Dynamics/raw/master/Images/11.mov)下载视频或者在项目找到Images/11.mov观看。
