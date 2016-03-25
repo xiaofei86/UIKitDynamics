@@ -55,13 +55,3 @@
 [图片备用链接](http://g.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=9e4298fc307adab439d0184bbbefc221/8435e5dde71190ef109db90bc81b9d16fcfa60fb.jpg)
 
 <img src = "https://github.com/xiaofei86/UIKit-Dynamics/raw/master/Images/10.gif">
-
-#Reference
-
-[实战iOS7之UIDynamics](http://ningandjiao.iteye.com/blog/2009542)
-
-[Introduction to UIKit Dynamics](http://www.teehanlax.com/blog/introduction-to-uikit-dynamics/)
-
-[WWDC 2013 Session笔记 - UIKit Dynamics入门](http://onevcat.com/2013/06/uikit-dynamics-started/)
-
-[UICollectionView + UIKit Dynamics](http://objccn.io/issue-5-2/)
