@@ -7,9 +7,11 @@
 
 > This repositorie is a demo of UIKit dynamics animation. All the dynamic behaviors are practiced. There are 3 practical applications and 1 independent project of solar system also. UIKit dynamics is a new member of UIKit in iOS7, There are few usage scenarios. Because it is UIView based animation, the performance should be lower than CoreAnimation. But it can create complex animation with physical simulation effect like a simple 2D physics engine.  
 
+> This repositorie has a lot of GIF images. So it will be very card in the first load. You can wait for the picture loading completed to view it.
+
 学习 UIKitDynamics 时做的 Demo，把 UIKitDynamics 的所有 Behavior 都进行了实践，还有三个实际场景的应用和一个独立项目。UIKitDynamics 是 iOS7 新加入 UIKIt 家族的动画，使用场景比较少。由于是基于 UIView 的动画，效率肯定不会有 CoreAnimation 高。但是借此可以做出来复杂的仿真动画效果，甚至可以算是简单的 2D 物理引擎了。
 
-> This repositorie has a lot of GIF images. So it will be very card in the first load. You can wait for the picture loading completed to view it.
+
 
 * 由于GIF图片较多，首次加载的时候播放很卡，可以等所有图片加载完再看。
 
