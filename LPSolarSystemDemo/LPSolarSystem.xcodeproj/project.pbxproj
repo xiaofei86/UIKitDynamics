@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFD5017E1C4DFE6E002E65D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD5017D1C4DFE6E002E65D6 /* main.m */; };
+		AFD501811C4DFE6E002E65D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD501801C4DFE6E002E65D6 /* AppDelegate.m */; };
+		AFD501841C4DFE6E002E65D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD501831C4DFE6E002E65D6 /* ViewController.m */; };
+		AFD501891C4DFE6E002E65D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD501881C4DFE6E002E65D6 /* Assets.xcassets */; };
+		AFD501A21C4DFF27002E65D6 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD501941C4DFF27002E65D6 /* DataController.m */; };
+		AFD501A31C4DFF27002E65D6 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD501961C4DFF27002E65D6 /* bg.png */; };
+		AFD501A41C4DFF27002E65D6 /* indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD501971C4DFF27002E65D6 /* indicator.png */; };
+		AFD501A51C4DFF27002E65D6 /* 土星.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD501981C4DFF27002E65D6 /* 土星.png */; };
+		AFD501A61C4DFF27002E65D6 /* 地球.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD501991C4DFF27002E65D6 /* 地球.png */; };
+		AFD501A71C4DFF27002E65D6 /* 太阳.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD5019A1C4DFF27002E65D6 /* 太阳.png */; };
+		AFD501A81C4DFF27002E65D6 /* 彗星.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD5019B1C4DFF27002E65D6 /* 彗星.png */; };
+		AFD501A91C4DFF27002E65D6 /* 木星.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD5019C1C4DFF27002E65D6 /* 木星.png */; };
+		AFD501AA1C4DFF27002E65D6 /* 水星.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD5019D1C4DFF27002E65D6 /* 水星.png */; };
+		AFD501AB1C4DFF27002E65D6 /* 火星.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD5019E1C4DFF27002E65D6 /* 火星.png */; };
+		AFD501AC1C4DFF27002E65D6 /* 金星.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD5019F1C4DFF27002E65D6 /* 金星.png */; };
+		AFD501AD1C4DFF27002E65D6 /* LPPushDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD501A11C4DFF27002E65D6 /* LPPushDataManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AFD501791C4DFE6E002E65D6 /* LPSolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPSolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD5017D1C4DFE6E002E65D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFD5017F1C4DFE6E002E65D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFD501801C4DFE6E002E65D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFD501821C4DFE6E002E65D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFD501831C4DFE6E002E65D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFD501881C4DFE6E002E65D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFD5018D1C4DFE6E002E65D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD501931C4DFF27002E65D6 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		AFD501941C4DFF27002E65D6 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+		AFD501961C4DFF27002E65D6 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		AFD501971C4DFF27002E65D6 /* indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicator.png; sourceTree = "<group>"; };
+		AFD501981C4DFF27002E65D6 /* 土星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "土星.png"; sourceTree = "<group>"; };
+		AFD501991C4DFF27002E65D6 /* 地球.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地球.png"; sourceTree = "<group>"; };
+		AFD5019A1C4DFF27002E65D6 /* 太阳.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "太阳.png"; sourceTree = "<group>"; };
+		AFD5019B1C4DFF27002E65D6 /* 彗星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "彗星.png"; sourceTree = "<group>"; };
+		AFD5019C1C4DFF27002E65D6 /* 木星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "木星.png"; sourceTree = "<group>"; };
+		AFD5019D1C4DFF27002E65D6 /* 水星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水星.png"; sourceTree = "<group>"; };
+		AFD5019E1C4DFF27002E65D6 /* 火星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火星.png"; sourceTree = "<group>"; };
+		AFD5019F1C4DFF27002E65D6 /* 金星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金星.png"; sourceTree = "<group>"; };
+		AFD501A01C4DFF27002E65D6 /* LPPushDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPPushDataManager.h; sourceTree = "<group>"; };
+		AFD501A11C4DFF27002E65D6 /* LPPushDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPushDataManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFD501761C4DFE6E002E65D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFD501701C4DFE6E002E65D6 = {
+			isa = PBXGroup;
+			children = (
+				AFD5017B1C4DFE6E002E65D6 /* LPSolarSystem */,
+				AFD5017A1C4DFE6E002E65D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFD5017A1C4DFE6E002E65D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFD501791C4DFE6E002E65D6 /* LPSolarSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFD5017B1C4DFE6E002E65D6 /* LPSolarSystem */ = {
+			isa = PBXGroup;
+			children = (
+				AFD5017F1C4DFE6E002E65D6 /* AppDelegate.h */,
+				AFD501801C4DFE6E002E65D6 /* AppDelegate.m */,
+				AFD501821C4DFE6E002E65D6 /* ViewController.h */,
+				AFD501831C4DFE6E002E65D6 /* ViewController.m */,
+				AFD501931C4DFF27002E65D6 /* DataController.h */,
+				AFD501941C4DFF27002E65D6 /* DataController.m */,
+				AFD501A01C4DFF27002E65D6 /* LPPushDataManager.h */,
+				AFD501A11C4DFF27002E65D6 /* LPPushDataManager.m */,
+				AFD501881C4DFE6E002E65D6 /* Assets.xcassets */,
+				AFD5018D1C4DFE6E002E65D6 /* Info.plist */,
+				AFD5017C1C4DFE6E002E65D6 /* Supporting Files */,
+			);
+			path = LPSolarSystem;
+			sourceTree = "<group>";
+		};
+		AFD5017C1C4DFE6E002E65D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFD501951C4DFF27002E65D6 /* images */,
+				AFD5017D1C4DFE6E002E65D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFD501951C4DFF27002E65D6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AFD501961C4DFF27002E65D6 /* bg.png */,
+				AFD501971C4DFF27002E65D6 /* indicator.png */,
+				AFD501981C4DFF27002E65D6 /* 土星.png */,
+				AFD501991C4DFF27002E65D6 /* 地球.png */,
+				AFD5019A1C4DFF27002E65D6 /* 太阳.png */,
+				AFD5019B1C4DFF27002E65D6 /* 彗星.png */,
+				AFD5019C1C4DFF27002E65D6 /* 木星.png */,
+				AFD5019D1C4DFF27002E65D6 /* 水星.png */,
+				AFD5019E1C4DFF27002E65D6 /* 火星.png */,
+				AFD5019F1C4DFF27002E65D6 /* 金星.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFD501781C4DFE6E002E65D6 /* LPSolarSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD501901C4DFE6E002E65D6 /* Build configuration list for PBXNativeTarget "LPSolarSystem" */;
+			buildPhases = (
+				AFD501751C4DFE6E002E65D6 /* Sources */,
+				AFD501761C4DFE6E002E65D6 /* Frameworks */,
+				AFD501771C4DFE6E002E65D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPSolarSystem;
+			productName = LPSolarSystem;
+			productReference = AFD501791C4DFE6E002E65D6 /* LPSolarSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFD501711C4DFE6E002E65D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = loopeer;
+				TargetAttributes = {
+					AFD501781C4DFE6E002E65D6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VS86A5N9W7;
+					};
+				};
+			};
+			buildConfigurationList = AFD501741C4DFE6E002E65D6 /* Build configuration list for PBXProject "LPSolarSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFD501701C4DFE6E002E65D6;
+			productRefGroup = AFD5017A1C4DFE6E002E65D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFD501781C4DFE6E002E65D6 /* LPSolarSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFD501771C4DFE6E002E65D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD501A91C4DFF27002E65D6 /* 木星.png in Resources */,
+				AFD501A81C4DFF27002E65D6 /* 彗星.png in Resources */,
+				AFD501AA1C4DFF27002E65D6 /* 水星.png in Resources */,
+				AFD501A71C4DFF27002E65D6 /* 太阳.png in Resources */,
+				AFD501A61C4DFF27002E65D6 /* 地球.png in Resources */,
+				AFD501AB1C4DFF27002E65D6 /* 火星.png in Resources */,
+				AFD501A31C4DFF27002E65D6 /* bg.png in Resources */,
+				AFD501AC1C4DFF27002E65D6 /* 金星.png in Resources */,
+				AFD501891C4DFE6E002E65D6 /* Assets.xcassets in Resources */,
+				AFD501A41C4DFF27002E65D6 /* indicator.png in Resources */,
+				AFD501A51C4DFF27002E65D6 /* 土星.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFD501751C4DFE6E002E65D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD501841C4DFE6E002E65D6 /* ViewController.m in Sources */,
+				AFD501A21C4DFF27002E65D6 /* DataController.m in Sources */,
+				AFD501AD1C4DFF27002E65D6 /* LPPushDataManager.m in Sources */,
+				AFD501811C4DFE6E002E65D6 /* AppDelegate.m in Sources */,
+				AFD5017E1C4DFE6E002E65D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFD5018E1C4DFE6E002E65D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFD5018F1C4DFE6E002E65D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFD501911C4DFE6E002E65D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LPSolarSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopeer.LPSolarSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AFD501921C4DFE6E002E65D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LPSolarSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopeer.LPSolarSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFD501741C4DFE6E002E65D6 /* Build configuration list for PBXProject "LPSolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD5018E1C4DFE6E002E65D6 /* Debug */,
+				AFD5018F1C4DFE6E002E65D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD501901C4DFE6E002E65D6 /* Build configuration list for PBXNativeTarget "LPSolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD501911C4DFE6E002E65D6 /* Debug */,
+				AFD501921C4DFE6E002E65D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFD501711C4DFE6E002E65D6 /* Project object */;
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "80DEB21269CAE0E00691ECAA8728E04F09DD80D0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "80DEB21269CAE0E00691ECAA8728E04F09DD80D0" : 0,
+    "37DD49D6260C252B3E4841788C35E31EF4C152AB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "987C74E0-DFFF-4939-BEE9-2664C0B01FFE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "80DEB21269CAE0E00691ECAA8728E04F09DD80D0" : "LPSolarSystemDemo\/",
+    "37DD49D6260C252B3E4841788C35E31EF4C152AB" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LPSolarSystem",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LPSolarSystem.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xiaofei86\/UIKit-Dynamics.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37DD49D6260C252B3E4841788C35E31EF4C152AB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xiaofei86\/SolarSystem.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "80DEB21269CAE0E00691ECAA8728E04F09DD80D0"
+    }
+  ]
+}
