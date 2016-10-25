@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "DataController.h"
-#import "LPPushDataManager.h"
+#import "XFUserDefaults.h"
 
 static CGFloat sWidth = 30;
 static CGFloat pWidth = 16;
@@ -20,24 +20,26 @@ static NSUInteger meteorTag = 107;
 
 @interface ViewController () <UICollisionBehaviorDelegate, UIGestureRecognizerDelegate>
 
+@property (nonatomic, strong) UIDynamicAnimator *animator;
+@property (nonatomic, strong) UIDynamicItemBehavior *dynamicItemBehavior;
+
+@property (nonatomic, strong) NSMutableArray<UIImageView *> *entity;
+@property (nonatomic, strong) NSArray<NSString *> *imageNameArray;
+@property (nonatomic, strong) NSArray<NSDictionary *> *data;
+
+@property (nonatomic, strong) UIImageView *fireButton;
+@property (nonatomic, strong) UIImageView *sun;
+@property (nonatomic, strong) UIImageView *meteor;
+
+@property (nonatomic, strong) NSTimer *timer;
+@property (nonatomic, assign) CGFloat space;
+@property (nonatomic, assign) CGFloat angle;
+@property (nonatomic, assign) NSInteger count;
+
 @end
 
 @implementation ViewController {
-    UIDynamicAnimator *_animator;
-    UIDynamicItemBehavior *_dynamicItemBehavior;
-    
-    NSMutableArray<UIImageView *> *_entity;
-    NSArray<NSString *> *_imageNameArray;
-    NSArray<NSDictionary *> *_data;
-    
-    UIImageView *_fireButton;
-    UIImageView *_sun;
-    UIImageView *_meteor;
-    
-    NSTimer *_timer;
-    CGFloat _space;
-    CGFloat _angle;
-    NSInteger _count;
+
 }
 
 #pragma UIViewController
@@ -45,19 +47,19 @@ static NSUInteger meteorTag = 107;
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.navigationItem.title = @"吃什么";
+        self.navigationItem.title = @"Random Number";
         _entity = [NSMutableArray array];
         _imageNameArray = @[@"太阳", @"水星", @"金星", @"地球", @"火星", @"木星", @"土星", @"彗星"];
         
         self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"重置" style:UIBarButtonItemStyleDone target:self action:@selector(reset:)];
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"设置" style:UIBarButtonItemStyleDone target:self action:@selector(set:)];
         
-        _data = [LPPushDataManager getCacheData];
+        _data = [XFUserDefaults getCacheDataWithKey:@"test"];
         if (_data.count <= 0) {
             NSArray *keys = @[@"水星", @"金星", @"地球", @"火星", @"木星", @"土星", @"count"];
-            NSArray *values = @[@"大钦差", @"田老师", @"刀削面", @"黄焖鸡", @"重庆小面", @"重来", @"6"];
+            NSArray *values = @[@"1", @"2", @"3", @"4", @"5", @"6", @"6"];
             _data = @[[NSDictionary dictionaryWithObjects:values forKeys:keys]];
-            [LPPushDataManager setCacheData:_data];
+            [XFUserDefaults setCacheData:_data withKey:@"test"];
         }
         _count = [_data[0][@"count"] integerValue];
         _space = (CGRectGetWidth([UIScreen mainScreen].bounds) / 2 - sWidth / 2 - pWidth * _count) / (_count + 1);
@@ -213,7 +215,7 @@ static NSUInteger meteorTag = 107;
 #pragma mark - Public
 
 - (void)reloadView {
-    _data = [LPPushDataManager getCacheData];
+    _data = [XFUserDefaults getCacheDataWithKey:@"test"];
     NSInteger count = [_data[0][@"count"] integerValue];
     if (count < 2) {
         count = 2;

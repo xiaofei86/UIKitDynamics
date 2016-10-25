@@ -7,13 +7,12 @@
 //
 
 #import "DataController.h"
-#import "LPPushDataManager.h"
+#import "XFUserDefaults.h"
 #import "ViewController.h"
 
 @interface LPEditTableViewCell : UITableViewCell <UITextFieldDelegate>
 
 @property (strong, nonatomic) UITextField *keyTextField;
-
 @property (strong, nonatomic) UITextField *valueTextField;
 
 @end
@@ -80,7 +79,7 @@
         self.navigationController.navigationBar.translucent = NO;
         self.edgesForExtendedLayout = UIRectEdgeNone;
         _keys = @[@"水星", @"金星", @"地球", @"火星", @"木星", @"土星"];
-        _data = [LPPushDataManager getCacheData];
+        _data = [XFUserDefaults getCacheDataWithKey:@"test"];
         _count = [_data[0][@"count"] integerValue];
         
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"取消" style:UIBarButtonItemStyleDone target:self action:@selector(dismissDataController)];
@@ -151,8 +150,8 @@
     mutableDictionary[@"count"] = [@(_count) stringValue];
     mutableArray[0] = mutableDictionary;
     _data = mutableArray;
-    [LPPushDataManager setCacheData:_data];
-    _data = [LPPushDataManager getCacheData];
+    [XFUserDefaults setCacheData:_data withKey:@"test"];
+    _data = [XFUserDefaults getCacheDataWithKey:@"test"];
     [_tableView reloadData];
     
     [_viewController reloadView];

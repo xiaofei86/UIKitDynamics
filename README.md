@@ -1,25 +1,22 @@
 #UIKitDynamics
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/xiaofei86/UIKitDynamics/master/LICENSE)&nbsp;
-[![PLATFORM](https://img.shields.io/cocoapods/p/LPNetworking.svg?style=flat)](https://developer.apple.com/library/ios/navigation/)&nbsp;
-[![SUPPORT](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat)](https://en.wikipedia.org/wiki/IOS_7)&nbsp;
-[![BLOG](https://img.shields.io/badge/blog-xuyafei.cn-orange.svg?style=flat)](http://xuyafei.cn)&nbsp;
+[![LICENSE](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](https://raw.githubusercontent.com/xiaofei86/UIKitDynamics/master/LICENSE)&nbsp;
+[![SUPPORT](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat-square)](https://en.wikipedia.org/wiki/IOS_7)&nbsp;
+[![BLOG](https://img.shields.io/badge/blog-xuyafei.cn-orange.svg?style=flat-square)](http://xuyafei.cn)&nbsp;
 
-> This repositorie is a demo of UIKit dynamics animation. All the dynamic behaviors are practiced. There are 3 practical applications and 1 independent project of solar system also. UIKit dynamics is a new member of UIKit in iOS7, There are few usage scenarios. Because it is UIView based animation, the performance should be lower than CoreAnimation. But it can create complex animation with physical simulation effect like a simple 2D physics engine.  
+> The repositorie is designed to help you learn UIKit dynamics animation. First, all the dynamic behaviors are practiced. Then，there are three practical applications to explore the usage scenarios. Finally，through a independent project to a comprehensive application
 
-> This repositorie has a lot of GIF images. So it will be very card in the first load. You can wait for the picture loading completed to view it.
+> UIKit dynamics is a new member of UIKit in iOS7, As the animation process controllability is low, performance consumption is relatively large, so the usage scenarios is relatively small. But it can create complex animation with physical simulation effect like a 2D physics engine. If such an effect is used in the right place will give the interaction pleasantly surprised, you will feel in the back of the scene application.
 
-学习 UIKitDynamics 时做的 Demo，把 UIKitDynamics 的所有 Behavior 都进行了实践，还有三个实际场景的应用和一个独立项目。UIKitDynamics 是 iOS7 新加入 UIKIt 家族的动画，使用场景比较少。由于是基于 UIView 的动画，效率肯定不会有 CoreAnimation 高。但是借此可以做出来复杂的仿真动画效果，甚至可以算是简单的 2D 物理引擎了。
+本项目用来帮助你学习 UIKitDynamics。先把 UIKitDynamics 的所有 Behavior 都进行了演示，然后提供三个实际场景的应用来探索它的使用场景，最后通过独立项目来进行综合应用。
 
-
-
-* 由于GIF图片较多，首次加载的时候播放很卡，可以等所有图片加载完再看。
+UIKitDynamics 是 iOS7 新加入 UIKit 家族的动画。由于动画过程可控性低，性能消耗也比较大，所以使用场景相对较少。但是借此可以做出来复杂的仿真动画效果，甚至可以媲美 2D 物理引擎。如果把这样的效果用在合适的地方将会给交互带来惊喜，你将在后边的场景应用中感受到。
 
 # LPSolarSystem（独立项目）
 
-> This independent project is a random number generator simulated the solar system. The GIF image frames is lower. You can click [here](https://github.com/xiaofei86/UIKit-Dynamics/raw/master/Images/11.mov) to download the mov or find Images/11.mov in the project to watch .  
+> This independent project is a random number generator simulated the solar system. The FPS of the GIF is very low. You can click [here](https://github.com/xiaofei86/UIKit-Dynamics/raw/master/Images/11.mov) to download the mov or find Images/11.mov in the project for more details.  
 
-独立项目使用 UIKitDynamics 模拟太阳系制作随机数生成器。图片由于 GIF 帧数过低，效果很差，可以在[这里](https://github.com/xiaofei86/UIKit-Dynamics/raw/master/Images/11.mov)下载视频或者在项目找到 Images/11.mov 观看。
+独立项目使用 UIKitDynamics 模拟太阳系制作随机数生成器。图片 GIF 帧数过低。你可以点击[这里](https://github.com/xiaofei86/UIKit-Dynamics/raw/master/Images/11.mov)下载视频或者在项目找到 Images/11.mov 查看完整效果。
 
 <img src = "https://github.com/xiaofei86/UIKit-Dynamics/raw/master/Images/11.gif">
 

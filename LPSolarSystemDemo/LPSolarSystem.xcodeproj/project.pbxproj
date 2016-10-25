@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0A576E1DBEE7C0002F80B4 /* XFUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0A576D1DBEE7C0002F80B4 /* XFUserDefaults.m */; };
 		AFD5017E1C4DFE6E002E65D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD5017D1C4DFE6E002E65D6 /* main.m */; };
 		AFD501811C4DFE6E002E65D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD501801C4DFE6E002E65D6 /* AppDelegate.m */; };
 		AFD501841C4DFE6E002E65D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD501831C4DFE6E002E65D6 /* ViewController.m */; };
@@ -22,10 +23,11 @@
 		AFD501AA1C4DFF27002E65D6 /* 水星.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD5019D1C4DFF27002E65D6 /* 水星.png */; };
 		AFD501AB1C4DFF27002E65D6 /* 火星.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD5019E1C4DFF27002E65D6 /* 火星.png */; };
 		AFD501AC1C4DFF27002E65D6 /* 金星.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD5019F1C4DFF27002E65D6 /* 金星.png */; };
-		AFD501AD1C4DFF27002E65D6 /* LPPushDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD501A11C4DFF27002E65D6 /* LPPushDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF0A576C1DBEE7C0002F80B4 /* XFUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFUserDefaults.h; sourceTree = "<group>"; };
+		AF0A576D1DBEE7C0002F80B4 /* XFUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFUserDefaults.m; sourceTree = "<group>"; };
 		AFD501791C4DFE6E002E65D6 /* LPSolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPSolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD5017D1C4DFE6E002E65D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFD5017F1C4DFE6E002E65D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,8 +48,6 @@
 		AFD5019D1C4DFF27002E65D6 /* 水星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水星.png"; sourceTree = "<group>"; };
 		AFD5019E1C4DFF27002E65D6 /* 火星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火星.png"; sourceTree = "<group>"; };
 		AFD5019F1C4DFF27002E65D6 /* 金星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金星.png"; sourceTree = "<group>"; };
-		AFD501A01C4DFF27002E65D6 /* LPPushDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPPushDataManager.h; sourceTree = "<group>"; };
-		AFD501A11C4DFF27002E65D6 /* LPPushDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPushDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 				AFD501831C4DFE6E002E65D6 /* ViewController.m */,
 				AFD501931C4DFF27002E65D6 /* DataController.h */,
 				AFD501941C4DFF27002E65D6 /* DataController.m */,
-				AFD501A01C4DFF27002E65D6 /* LPPushDataManager.h */,
-				AFD501A11C4DFF27002E65D6 /* LPPushDataManager.m */,
+				AF0A576C1DBEE7C0002F80B4 /* XFUserDefaults.h */,
+				AF0A576D1DBEE7C0002F80B4 /* XFUserDefaults.m */,
 				AFD501881C4DFE6E002E65D6 /* Assets.xcassets */,
 				AFD5018D1C4DFE6E002E65D6 /* Info.plist */,
 				AFD5017C1C4DFE6E002E65D6 /* Supporting Files */,
@@ -152,7 +152,8 @@
 				TargetAttributes = {
 					AFD501781C4DFE6E002E65D6 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = VS86A5N9W7;
+						DevelopmentTeam = 975UV32A32;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -202,7 +203,7 @@
 			files = (
 				AFD501841C4DFE6E002E65D6 /* ViewController.m in Sources */,
 				AFD501A21C4DFF27002E65D6 /* DataController.m in Sources */,
-				AFD501AD1C4DFF27002E65D6 /* LPPushDataManager.m in Sources */,
+				AF0A576E1DBEE7C0002F80B4 /* XFUserDefaults.m in Sources */,
 				AFD501811C4DFE6E002E65D6 /* AppDelegate.m in Sources */,
 				AFD5017E1C4DFE6E002E65D6 /* main.m in Sources */,
 			);
@@ -298,12 +299,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 975UV32A32;
 				INFOPLIST_FILE = LPSolarSystem/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.loopeer.LPSolarSystem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyf.LPSolarSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "3428ff0d-187c-4409-9995-c6cc2ff18ee0";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Development";
 			};
 			name = Debug;
 		};
@@ -313,13 +316,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 975UV32A32;
 				INFOPLIST_FILE = LPSolarSystem/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.loopeer.LPSolarSystem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyf.LPSolarSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "16276280-edd5-422e-9160-062b962dfce2";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Ad Hoc";
 			};
 			name = Release;
 		};
