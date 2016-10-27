@@ -1,6 +1,6 @@
 #UIKitDynamics
 
-<img src = "https://github.com/xiaofei86/XFAssistiveTouch/raw/master/Images/UIKitDynamicHeader.png" width = 850>
+<img src = "https://github.com/xiaofei86/UIKitDynamics/raw/master/Images/UIKitDynamicHeader.png" width = 850>
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](https://raw.githubusercontent.com/xiaofei86/UIKitDynamics/master/LICENSE)&nbsp;
 [![SUPPORT](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat-square)](https://en.wikipedia.org/wiki/IOS_7)&nbsp;
