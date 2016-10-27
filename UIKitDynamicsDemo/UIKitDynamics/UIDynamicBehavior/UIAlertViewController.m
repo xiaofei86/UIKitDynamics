@@ -33,7 +33,6 @@
     [self.navigationController presentViewController:_alertController animated:NO completion:nil];
     
     //重置view.center来暂停原动画然后开始自定义的动画
-    NSLog(@"%f,%f", _alertController.view.subviews.firstObject.frame.size.width, _alertController.view.subviews.firstObject.frame.size.height);
     _alertController.view.center = CGPointMake(self.view.center.x, 0);
     [UIView animateWithDuration:0.25 animations:^{
         _alertController.view.alpha = 1.0;
