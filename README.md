@@ -12,7 +12,7 @@
 
 UIKitDynamics 是 iOS7 新加入 UIKit 家族的动画。由于动画过程可控性低，性能消耗也比较大，所以使用场景相对较少。但是借此可以做出来复杂的仿真动画效果，甚至可以媲美 2D 物理引擎。如果把这样的效果用在合适的地方将会给交互带来惊喜，你将在后边的场景应用中感受到。
 
-# LPSolarSystem（独立项目）
+# XFSolarSystem（独立项目）
 
 > This independent project is a random number generator simulated the solar system. The FPS of the GIF is very low. You can click [here](https://github.com/xiaofei86/UIKit-Dynamics/raw/master/Images/11.mov) to download the mov or find Images/11.mov in the project for more details.  
 

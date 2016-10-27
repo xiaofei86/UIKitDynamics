@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Dd6-Lb-QlJ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Random Number-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="lbF-51-oa4"/>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sw6-Lq-Qkp">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="HLW-sH-kWF">
+                                    <frame key="frameInset"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SolorSystem" translatesAutoresizingMaskIntoConstraints="NO" id="Ku8-eF-fef">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="UWN-Zt-mwp"/>
+                                    <constraint firstAttribute="width" constant="240" id="Y2O-kV-3lW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lbF-51-oa4" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="0tk-Z0-X8O"/>
+                            <constraint firstItem="lbF-51-oa4" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="3Xu-Im-GQi"/>
+                            <constraint firstItem="sw6-Lq-Qkp" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="7pK-90-4W3"/>
+                            <constraint firstItem="Ku8-eF-fef" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LQy-86-1Rh"/>
+                            <constraint firstItem="Ku8-eF-fef" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="X9g-p5-7Sa"/>
+                            <constraint firstItem="sw6-Lq-Qkp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="XBj-lN-XO3"/>
+                            <constraint firstItem="lbF-51-oa4" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="ZNk-TL-CIT"/>
+                            <constraint firstItem="lbF-51-oa4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lPx-H4-KyD"/>
+                            <constraint firstItem="sw6-Lq-Qkp" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="v08-Zv-PaH"/>
+                            <constraint firstItem="sw6-Lq-Qkp" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="xYX-cT-IYw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Random Number" id="u1T-iM-PEf">
+                        <barButtonItem key="leftBarButtonItem" title="重置" id="CLf-1G-SAF"/>
+                        <barButtonItem key="rightBarButtonItem" title="设置" id="Wdv-77-BBk"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="991.20000000000005" y="374.66266866566718"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="6sp-D4-FQk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dd6-Lb-QlJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wHh-5s-7my">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="01J-lp-oVM" kind="relationship" relationship="rootViewController" id="J1J-Ep-zMv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aGs-OR-EiG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SolorSystem" width="1024" height="1024"/>
+        <image name="bg" width="1240" height="2208"/>
+    </resources>
+</document>

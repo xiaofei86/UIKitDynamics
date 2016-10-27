@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF5FF8951DBFCE440019ED55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF8941DBFCE440019ED55 /* main.m */; };
+		AF5FF8981DBFCE440019ED55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF8971DBFCE440019ED55 /* AppDelegate.m */; };
+		AF5FF89B1DBFCE440019ED55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF89A1DBFCE440019ED55 /* ViewController.m */; };
+		AF5FF89E1DBFCE440019ED55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5FF89C1DBFCE440019ED55 /* Main.storyboard */; };
+		AF5FF8A01DBFCE440019ED55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5FF89F1DBFCE440019ED55 /* Assets.xcassets */; };
+		AF5FF8A31DBFCE440019ED55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5FF8A11DBFCE440019ED55 /* LaunchScreen.storyboard */; };
+		AF5FF8E31DBFCFC60019ED55 /* UIAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF8CE1DBFCFC60019ED55 /* UIAlertViewController.m */; };
+		AF5FF8E41DBFCFC60019ED55 /* UIAttachmentBehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF8D01DBFCFC60019ED55 /* UIAttachmentBehaviorViewController.m */; };
+		AF5FF8E51DBFCFC60019ED55 /* UICollectionViewDynamicLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF8D21DBFCFC60019ED55 /* UICollectionViewDynamicLayout.m */; };
+		AF5FF8E61DBFCFC60019ED55 /* UICollisionBehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF8D41DBFCFC60019ED55 /* UICollisionBehaviorViewController.m */; };
+		AF5FF8E71DBFCFC60019ED55 /* UIDynamicItemBehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF8D61DBFCFC60019ED55 /* UIDynamicItemBehaviorViewController.m */; };
+		AF5FF8E81DBFCFC60019ED55 /* UIGravityBehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF8D81DBFCFC60019ED55 /* UIGravityBehaviorViewController.m */; };
+		AF5FF8E91DBFCFC60019ED55 /* UIPendulumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF8DA1DBFCFC60019ED55 /* UIPendulumViewController.m */; };
+		AF5FF8EA1DBFCFC60019ED55 /* UIPhotoWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF8DC1DBFCFC60019ED55 /* UIPhotoWallViewController.m */; };
+		AF5FF8EB1DBFCFC60019ED55 /* UIPushBehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF8DE1DBFCFC60019ED55 /* UIPushBehaviorViewController.m */; };
+		AF5FF8EC1DBFCFC60019ED55 /* UISnapBehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF8E01DBFCFC60019ED55 /* UISnapBehaviorViewController.m */; };
+		AF5FF8ED1DBFCFC60019ED55 /* UITransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF8E21DBFCFC60019ED55 /* UITransformViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF5FF8901DBFCE440019ED55 /* UIKitDynamics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitDynamics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5FF8941DBFCE440019ED55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF5FF8961DBFCE440019ED55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF5FF8971DBFCE440019ED55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF5FF8991DBFCE440019ED55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF5FF89A1DBFCE440019ED55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF5FF89D1DBFCE440019ED55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF5FF89F1DBFCE440019ED55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF5FF8A21DBFCE440019ED55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF5FF8A41DBFCE440019ED55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5FF8CD1DBFCFC60019ED55 /* UIAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertViewController.h; sourceTree = "<group>"; };
+		AF5FF8CE1DBFCFC60019ED55 /* UIAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertViewController.m; sourceTree = "<group>"; };
+		AF5FF8CF1DBFCFC60019ED55 /* UIAttachmentBehaviorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAttachmentBehaviorViewController.h; sourceTree = "<group>"; };
+		AF5FF8D01DBFCFC60019ED55 /* UIAttachmentBehaviorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAttachmentBehaviorViewController.m; sourceTree = "<group>"; };
+		AF5FF8D11DBFCFC60019ED55 /* UICollectionViewDynamicLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewDynamicLayout.h; sourceTree = "<group>"; };
+		AF5FF8D21DBFCFC60019ED55 /* UICollectionViewDynamicLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewDynamicLayout.m; sourceTree = "<group>"; };
+		AF5FF8D31DBFCFC60019ED55 /* UICollisionBehaviorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollisionBehaviorViewController.h; sourceTree = "<group>"; };
+		AF5FF8D41DBFCFC60019ED55 /* UICollisionBehaviorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollisionBehaviorViewController.m; sourceTree = "<group>"; };
+		AF5FF8D51DBFCFC60019ED55 /* UIDynamicItemBehaviorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDynamicItemBehaviorViewController.h; sourceTree = "<group>"; };
+		AF5FF8D61DBFCFC60019ED55 /* UIDynamicItemBehaviorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDynamicItemBehaviorViewController.m; sourceTree = "<group>"; };
+		AF5FF8D71DBFCFC60019ED55 /* UIGravityBehaviorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGravityBehaviorViewController.h; sourceTree = "<group>"; };
+		AF5FF8D81DBFCFC60019ED55 /* UIGravityBehaviorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGravityBehaviorViewController.m; sourceTree = "<group>"; };
+		AF5FF8D91DBFCFC60019ED55 /* UIPendulumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPendulumViewController.h; sourceTree = "<group>"; };
+		AF5FF8DA1DBFCFC60019ED55 /* UIPendulumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPendulumViewController.m; sourceTree = "<group>"; };
+		AF5FF8DB1DBFCFC60019ED55 /* UIPhotoWallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPhotoWallViewController.h; sourceTree = "<group>"; };
+		AF5FF8DC1DBFCFC60019ED55 /* UIPhotoWallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPhotoWallViewController.m; sourceTree = "<group>"; };
+		AF5FF8DD1DBFCFC60019ED55 /* UIPushBehaviorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPushBehaviorViewController.h; sourceTree = "<group>"; };
+		AF5FF8DE1DBFCFC60019ED55 /* UIPushBehaviorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPushBehaviorViewController.m; sourceTree = "<group>"; };
+		AF5FF8DF1DBFCFC60019ED55 /* UISnapBehaviorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISnapBehaviorViewController.h; sourceTree = "<group>"; };
+		AF5FF8E01DBFCFC60019ED55 /* UISnapBehaviorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISnapBehaviorViewController.m; sourceTree = "<group>"; };
+		AF5FF8E11DBFCFC60019ED55 /* UITransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITransformViewController.h; sourceTree = "<group>"; };
+		AF5FF8E21DBFCFC60019ED55 /* UITransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITransformViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF5FF88D1DBFCE440019ED55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF5FF8871DBFCE440019ED55 = {
+			isa = PBXGroup;
+			children = (
+				AF5FF8CC1DBFCFC60019ED55 /* UIDynamicBehavior */,
+				AF5FF8921DBFCE440019ED55 /* UIKitDynamics */,
+				AF5FF8911DBFCE440019ED55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF5FF8911DBFCE440019ED55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FF8901DBFCE440019ED55 /* UIKitDynamics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF5FF8921DBFCE440019ED55 /* UIKitDynamics */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FF8961DBFCE440019ED55 /* AppDelegate.h */,
+				AF5FF8971DBFCE440019ED55 /* AppDelegate.m */,
+				AF5FF8991DBFCE440019ED55 /* ViewController.h */,
+				AF5FF89A1DBFCE440019ED55 /* ViewController.m */,
+				AF5FF89C1DBFCE440019ED55 /* Main.storyboard */,
+				AF5FF89F1DBFCE440019ED55 /* Assets.xcassets */,
+				AF5FF8A11DBFCE440019ED55 /* LaunchScreen.storyboard */,
+				AF5FF8A41DBFCE440019ED55 /* Info.plist */,
+				AF5FF8931DBFCE440019ED55 /* Supporting Files */,
+			);
+			path = UIKitDynamics;
+			sourceTree = "<group>";
+		};
+		AF5FF8931DBFCE440019ED55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FF8941DBFCE440019ED55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF5FF8CC1DBFCFC60019ED55 /* UIDynamicBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FF8CD1DBFCFC60019ED55 /* UIAlertViewController.h */,
+				AF5FF8CE1DBFCFC60019ED55 /* UIAlertViewController.m */,
+				AF5FF8CF1DBFCFC60019ED55 /* UIAttachmentBehaviorViewController.h */,
+				AF5FF8D01DBFCFC60019ED55 /* UIAttachmentBehaviorViewController.m */,
+				AF5FF8D11DBFCFC60019ED55 /* UICollectionViewDynamicLayout.h */,
+				AF5FF8D21DBFCFC60019ED55 /* UICollectionViewDynamicLayout.m */,
+				AF5FF8D31DBFCFC60019ED55 /* UICollisionBehaviorViewController.h */,
+				AF5FF8D41DBFCFC60019ED55 /* UICollisionBehaviorViewController.m */,
+				AF5FF8D51DBFCFC60019ED55 /* UIDynamicItemBehaviorViewController.h */,
+				AF5FF8D61DBFCFC60019ED55 /* UIDynamicItemBehaviorViewController.m */,
+				AF5FF8D71DBFCFC60019ED55 /* UIGravityBehaviorViewController.h */,
+				AF5FF8D81DBFCFC60019ED55 /* UIGravityBehaviorViewController.m */,
+				AF5FF8D91DBFCFC60019ED55 /* UIPendulumViewController.h */,
+				AF5FF8DA1DBFCFC60019ED55 /* UIPendulumViewController.m */,
+				AF5FF8DB1DBFCFC60019ED55 /* UIPhotoWallViewController.h */,
+				AF5FF8DC1DBFCFC60019ED55 /* UIPhotoWallViewController.m */,
+				AF5FF8DD1DBFCFC60019ED55 /* UIPushBehaviorViewController.h */,
+				AF5FF8DE1DBFCFC60019ED55 /* UIPushBehaviorViewController.m */,
+				AF5FF8DF1DBFCFC60019ED55 /* UISnapBehaviorViewController.h */,
+				AF5FF8E01DBFCFC60019ED55 /* UISnapBehaviorViewController.m */,
+				AF5FF8E11DBFCFC60019ED55 /* UITransformViewController.h */,
+				AF5FF8E21DBFCFC60019ED55 /* UITransformViewController.m */,
+			);
+			name = UIDynamicBehavior;
+			path = UIKitDynamics/UIDynamicBehavior;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF5FF88F1DBFCE440019ED55 /* UIKitDynamics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5FF8A71DBFCE440019ED55 /* Build configuration list for PBXNativeTarget "UIKitDynamics" */;
+			buildPhases = (
+				AF5FF88C1DBFCE440019ED55 /* Sources */,
+				AF5FF88D1DBFCE440019ED55 /* Frameworks */,
+				AF5FF88E1DBFCE440019ED55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIKitDynamics;
+			productName = UIKitDynamics;
+			productReference = AF5FF8901DBFCE440019ED55 /* UIKitDynamics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF5FF8881DBFCE440019ED55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = XuYafei;
+				TargetAttributes = {
+					AF5FF88F1DBFCE440019ED55 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 975UV32A32;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = AF5FF88B1DBFCE440019ED55 /* Build configuration list for PBXProject "UIKitDynamics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF5FF8871DBFCE440019ED55;
+			productRefGroup = AF5FF8911DBFCE440019ED55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF5FF88F1DBFCE440019ED55 /* UIKitDynamics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF5FF88E1DBFCE440019ED55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5FF8A31DBFCE440019ED55 /* LaunchScreen.storyboard in Resources */,
+				AF5FF8A01DBFCE440019ED55 /* Assets.xcassets in Resources */,
+				AF5FF89E1DBFCE440019ED55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF5FF88C1DBFCE440019ED55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5FF8EA1DBFCFC60019ED55 /* UIPhotoWallViewController.m in Sources */,
+				AF5FF89B1DBFCE440019ED55 /* ViewController.m in Sources */,
+				AF5FF8E71DBFCFC60019ED55 /* UIDynamicItemBehaviorViewController.m in Sources */,
+				AF5FF8E41DBFCFC60019ED55 /* UIAttachmentBehaviorViewController.m in Sources */,
+				AF5FF8981DBFCE440019ED55 /* AppDelegate.m in Sources */,
+				AF5FF8E91DBFCFC60019ED55 /* UIPendulumViewController.m in Sources */,
+				AF5FF8951DBFCE440019ED55 /* main.m in Sources */,
+				AF5FF8E61DBFCFC60019ED55 /* UICollisionBehaviorViewController.m in Sources */,
+				AF5FF8EC1DBFCFC60019ED55 /* UISnapBehaviorViewController.m in Sources */,
+				AF5FF8ED1DBFCFC60019ED55 /* UITransformViewController.m in Sources */,
+				AF5FF8E51DBFCFC60019ED55 /* UICollectionViewDynamicLayout.m in Sources */,
+				AF5FF8E31DBFCFC60019ED55 /* UIAlertViewController.m in Sources */,
+				AF5FF8EB1DBFCFC60019ED55 /* UIPushBehaviorViewController.m in Sources */,
+				AF5FF8E81DBFCFC60019ED55 /* UIGravityBehaviorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF5FF89C1DBFCE440019ED55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5FF89D1DBFCE440019ED55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF5FF8A11DBFCE440019ED55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5FF8A21DBFCE440019ED55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF5FF8A51DBFCE440019ED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF5FF8A61DBFCE440019ED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF5FF8A81DBFCE440019ED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 975UV32A32;
+				INFOPLIST_FILE = UIKitDynamics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyf.UIKitDynamics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3428ff0d-187c-4409-9995-c6cc2ff18ee0";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Development";
+			};
+			name = Debug;
+		};
+		AF5FF8A91DBFCE440019ED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 975UV32A32;
+				INFOPLIST_FILE = UIKitDynamics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyf.UIKitDynamics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "16276280-edd5-422e-9160-062b962dfce2";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Ad Hoc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF5FF88B1DBFCE440019ED55 /* Build configuration list for PBXProject "UIKitDynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5FF8A51DBFCE440019ED55 /* Debug */,
+				AF5FF8A61DBFCE440019ED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5FF8A71DBFCE440019ED55 /* Build configuration list for PBXNativeTarget "UIKitDynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5FF8A81DBFCE440019ED55 /* Debug */,
+				AF5FF8A91DBFCE440019ED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF5FF8881DBFCE440019ED55 /* Project object */;
+}
