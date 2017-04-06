@@ -1,5 +1,3 @@
-# UIKitDynamics
-
 <img src = "https://github.com/xiaofei86/UIKitDynamics/raw/master/Images/UIKitDynamicHeader.png" width = 850>
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](https://raw.githubusercontent.com/xiaofei86/UIKitDynamics/master/LICENSE)&nbsp;
